@@ -4,8 +4,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
-import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
@@ -45,14 +43,14 @@ const Navbar = () => {
               onClick={() => setNavbarOpen(true)}
               className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
             >
-              <FontAwesomeIcon icon={faBars} />
+              {/* <FontAwesomeIcon icon={faBars} /> */}
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
               className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
             >
-              <FontAwesomeIcon icon={faX} />
+              {/* <FontAwesomeIcon icon={faX} /> */}
             </button>
           )}
         </div>

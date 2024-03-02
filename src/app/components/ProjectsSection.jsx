@@ -12,11 +12,11 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "QuickLit",
-    description: "A Book Summarizer",
-    image: "/images/quicklit.png",
-    git: "https://github.com/Loveena28/QuickLit-BookSummarizer",
-    preview: "https://quick-lit-book-summarizer-ibe3.vercel.app/upload",
+    title: "Portfolio",
+    description: "My Personal Porfolio",
+    image: "/images/portfolio.png",
+    git: "https://github.com/Loveena28/my-portfolio",
+    preview: "https://my-portfolio-nine-swart-14.vercel.app/",
   },
 ];
 const ProjectsSection = () => {
