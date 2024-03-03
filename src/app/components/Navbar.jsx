@@ -5,6 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import MenuOverlay from "./MenuOverlay";
+import Image from "next/image";
 
 const navLinks = [
   {
@@ -35,7 +36,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          <Image src="/images/logo.jpg" alt="logo" width={"40"} height={"40"} ></Image>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
