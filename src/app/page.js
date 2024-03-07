@@ -5,6 +5,7 @@ import SkillsSection from "./components/SkillsSection";
 import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212] container mx-auto px-12 py-4">
@@ -16,6 +17,7 @@ export default function Home() {
         <ProjectsSection />
         <EmailSection />
         <Footer />
+      <ScrollToTop />
       </div>
     </main>
   );

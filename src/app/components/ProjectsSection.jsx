@@ -21,8 +21,10 @@ const projectsData = [
 ];
 const ProjectsSection = () => {
   return (
-    <>
-      <h2>My Projects</h2>
+    <section className="text-white" id="projects">
+      <h2 className="text-4xl font-bold text-white mb-4 text-center">
+        My Projects
+      </h2>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
         {projectsData.map((project) => (
           <ProjectCard
@@ -35,7 +37,7 @@ const ProjectsSection = () => {
           />
         ))}
       </div>
-    </>
+    </section>
   );
 };
 

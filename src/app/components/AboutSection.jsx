@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+import React, { useRef } from "react";
+import { motion,useInView } from "framer-motion";
 
 const AboutSection = () => {
   return (
