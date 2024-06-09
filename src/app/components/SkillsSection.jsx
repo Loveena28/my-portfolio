@@ -36,10 +36,10 @@ const SkillsSection = () => {
             <FaAngular color="black" size={"20"} />
             <p className="text-sm text-center text-black">Angular</p>
           </div>
-          <div className="flex flex-row gap-2 items-center justify-center rounded-lg bg-gray-200 shadow-md p-4 mr-4 mb-4 md:mr-8 md:mb-8 hover:bg-[#bbb7b7]">
+          {/* <div className="flex flex-row gap-2 items-center justify-center rounded-lg bg-gray-200 shadow-md p-4 mr-4 mb-4 md:mr-8 md:mb-8 hover:bg-[#bbb7b7]">
             <TbBrandNextjs color="black" size={"20"} />
             <p className="text-sm text-center text-black">NextJS</p>
-          </div>
+          </div> */}
           <div className="flex flex-row gap-2 items-center justify-center rounded-lg bg-gray-200 shadow-md p-4 mr-4 mb-4 md:mr-8 md:mb-8 hover:bg-[#007acc]">
             <BiLogoTypescript color="black" size={"20"} />
             <p className="text-sm text-center text-black">TypeScript</p>
