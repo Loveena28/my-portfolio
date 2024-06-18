@@ -9,7 +9,7 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4 text-center">About Me</h2>
           <p className="text-base lg:text-lg text-justify">
             Hi there! I&apos;m Loveena Ramchandani, a versatile software
-            developer specializing in <b>Python, Angular, .NET, NextJS, and
+            developer specializing in <b>Python, Angular, Node.js and
             database management with PostgreSQL and MySQL</b>. With a solid
             foundation in <b>Google Cloud Platform (GCP)</b>, I&apos;m passionate about
             leveraging technology to solve complex problems and drive
