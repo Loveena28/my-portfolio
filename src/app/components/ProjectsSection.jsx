@@ -24,7 +24,7 @@ const projectsData = [
     description: "The Book Summary Generator allows users to upload a book cover image, extract the title using Google Cloud Vision API, and generate a detailed summary with AI, which can be saved as a PDF.",
     image: "/images/quicklit.png",
     git: "https://github.com/Loveena28/QuickLit-Frontend",
-    preview: "https://quicklit.vercel.app/upload",
+    preview: "https://booksnap-ai.vercel.app",
   }
   
 ];
