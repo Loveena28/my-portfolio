@@ -30,7 +30,7 @@ const projectsData = [
     id: 4,
     title: "PuchoPDF",
     description: "RAG-based document Q&A API that lets users upload PDFs and ask natural language questions - answers returned with source page citations.",
-    image: "/images/puchpdf.png",
+    image: "/images/puchopdf.png",
     git: "https://github.com/Loveena28/PuchoPDF_Frontend",
     preview: "https://pucho-pdf-frontend.vercel.app/"
   }
